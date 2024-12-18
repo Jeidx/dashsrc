@@ -1,0 +1,78 @@
+.fw4{
+	font-weight: 400;
+}
+.fw5{
+	font-weight: 500;
+}
+.fw6{
+	font-weight: 600;
+}
+
+.fz10,
+.fz12,
+.fz14,
+.fz22,
+.fz24,
+.fz26{
+	font-family: "Poppins", sans-serif;
+}
+.fz10{
+	font-size: 10px;
+}
+.fz12{
+	font-size: 12px;
+}
+.fz14{
+	font-size: 14px;
+}
+.fz22{
+	font-size: 22px;
+}
+.fz24{
+	font-size: 24px;
+}
+.fz26{
+	font-size: 26px;
+}
+
+@media screen and (max-width: 768px){
+	.fz10{
+		font-size: 8px;
+	}
+	.fz12{
+		font-size: 10px;
+	}
+	.fz14{
+		font-size: 12px;
+	}
+	.fz22{
+		font-size: 16px;
+	}
+	.fz24{
+		font-size: 18px;
+	}
+	.fz26{
+		font-size: 20px;
+	}
+}
+@media screen and (max-width: 480px){
+	.fz14{
+		font-size: 10px;
+	}
+	.fz22{
+		font-size: 14px;
+	}
+	.fz24{
+		font-size: 16px;
+	}
+	.fz26{
+		font-size: 18px;
+	}
+}
+@media screen and (max-width: 360px){
+	.fz26{
+		font-size: 14px;
+	}
+}
+
+

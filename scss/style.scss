@@ -1,0 +1,11 @@
+@import "vendor";
+@import "../scss/components/fontAdapt";
+
+@import "vars";
+//container
+@import "settings";
+//container
+
+@import "../scss/components/sidebar/sidebar";
+@import "../scss/components/content/content";
+@import "../scss/components/pagination";
