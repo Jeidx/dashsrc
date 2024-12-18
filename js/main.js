@@ -40,24 +40,5 @@ document.addEventListener("DOMContentLoaded", (e) => {
 			}
 		}
 	}());
-	// (function moveLogoGreetings() {
-	// 	let windowWidth = window.screen.width;
-	// 	if(windowWidth <= 840){
-	// 		let user = document.querySelector('.sidebar_user');
-	// 		let greetings = document.querySelector('.content_head');
-	// 		let userContainer = document.querySelector('.sidebar_mob_user');
-	// 		let greetingsContainer = document.querySelector('.sidebar_mob_greetings');
-
-	// 		if(user && userContainer && greetings && greetingsContainer){
-	// 			userContainer.append(user);
-	// 			greetingsContainer.append(greetings);
-
-	// 			user.remove();
-	// 			greetings.remove();
-	// 		}
-	// 	}
-
-	// 	console.log(windowWidth);
-	// }());
 });
 
